@@ -19,4 +19,5 @@ function __ghq_repository_search -d 'Repository search'
     end
     [ -n "$select" ]; and cd "$select"
     commandline -f repaint
+    emit fish_prompt
 end
